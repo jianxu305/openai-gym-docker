@@ -21,7 +21,7 @@ RUN conda install swig
 RUN pip install box2d-py atari_py
 
 # Just for the convenience of testing
-COPY ./example/gym-render.ipynb /home/${NB_USER}/gym-render.ipynb
+COPY ./example/env_render.ipynb /home/${NB_USER}/env_render.ipynb
 COPY ./example/18_reinforcement_learning.ipynb /home/${NB_USER}/18_reinforcement_learning.ipynb
 
 
