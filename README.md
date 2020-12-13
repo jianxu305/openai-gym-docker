@@ -1,4 +1,5 @@
 # An Open AI Gym docker that can render on Windows
+This image starts from the jupyter/tensorflow-notebook, and has box2d-py and atari_py installed.  Therefore, many environments can be played.
 
 ## Prerequisite
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
