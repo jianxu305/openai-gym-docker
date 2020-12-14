@@ -18,7 +18,7 @@ RUN pip install \
 
 # Needed for some environments
 RUN conda install swig
-RUN pip install box2d-py atari_py
+RUN pip install box2d-py atari_py pystan
 
 # Just for the convenience of testing
 COPY ./example/env_render.ipynb /home/${NB_USER}/env_render.ipynb
