@@ -12,4 +12,4 @@ This image starts from the jupyter/tensorflow-notebook, and has box2d-py and ata
 * [example/18_reinforcement_learning.ipynb](./example/18_reinforcement_learning.ipynb): This is a copy from Chapter 18 in Géron, Aurélien's book: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow.  Source code is [here](https://github.com/ageron/handson-ml2/blob/master/18_reinforcement_learning.ipynb) in GitHub.
 
 ## Command to build the image
-$ docker build -t <openai_gym_win>:<v1.0> .
+$ docker build -t <openai_gym_docker>:<v1.0> .
